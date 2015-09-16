@@ -1,0 +1,109 @@
+html,
+body {
+  height: 100%;
+  /*background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Death_Valley,19820816,Desert,incoming_near_Shoshones.jpg/1280px-Death_Valley,19820816,Desert,incoming_near_Shoshones.jpg") no-repeat;*/
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+  background: rgba(110, 185, 245, 1);
+  height: 90px;
+  left: 0;
+  width: 100%;
+  top: 0;
+}
+
+#title {
+  float: left;
+  font: 400 60px/1.5 'Pacifico', Helvetica, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1), 
+    3px 3px 0px rgba(0, 0, 0, 0.05);
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.searchWrapper {
+  padding: 0;
+  width: 300px;
+  height: 90px;
+  float: right;
+}
+
+#searchText {
+  float: right;
+  width: 300px;
+  padding: 9px;
+  font-size: 16px;
+}
+
+#findme {
+  float: right;
+  width: 300px;
+  padding: 11px;
+}
+
+.center {
+  background: rgba(255, 255, 255, 0.8);
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  padding: 100px 0;
+  border-radius: 250px;
+  margin-top: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.info {
+  overflow: auto;
+  text-align: center;
+  margin-top: -60px;
+}
+
+#tempPri {
+  float: left;
+  margin-top: 60px;
+  margin-left: 110px;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+#tempAlt {
+  float: right;
+  margin-top: 125px;
+  margin-right: 100px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#icon {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#climate {
+  margin-top: -75px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#location {
+  margin: 30px;
+  font-size: 45px;
+}
+
+.footer {
+  background: rgba(110, 185, 245, 1);
+  bottom: 0;
+  height: 40px;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  z-index: 2;
+}
